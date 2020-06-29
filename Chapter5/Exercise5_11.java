@@ -15,13 +15,11 @@ class Exercise5_11 {
 			if(i % 5 == 0 ^ i % 6 == 0) {
 				System.out.print(i + " ");
 				count ++;
-			if(count == 10) {
-				System.out.print("\n");
-				count = 0;
+				if(count == 10) {
+					System.out.print("\n");
+					count = 0;
+				}
+			}
 		}
 	}
-}
-
-}
-
 }
