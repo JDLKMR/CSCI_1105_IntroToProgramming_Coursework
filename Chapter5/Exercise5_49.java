@@ -25,8 +25,8 @@ class Exercise5_49 {
 			if(string.charAt(i) == 'a' || string.charAt(i) == 'e' || string.charAt(i) == 'i' || string.charAt(i) == 'o' || string.charAt(i) == 'u') {
 				vowels++;
 			}
-		else if(string.charAt(i) >= 'a' && string.charAt(i) <= 'z') {
-			consonants++;
+			else if(string.charAt(i) >= 'a' && string.charAt(i) <= 'z') {
+				consonants++;
 			}
 		}
 		System.out.println("Number of vowels: " + vowels);
